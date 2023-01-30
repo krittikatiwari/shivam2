@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Caramel&family=Itim&family=Kavoon&family=Poppins:wght@300;500;600;700;900&family=Saira+Semi+Condensed:wght@100;300;600;700;800&family=Satisfy&display=swap');
+
+
+body {
+    color: white;
+    margin: 0%;
+	background: linear-gradient(-40deg, #ee7752, #b5587c, #598b9d, #d58223);
+	background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.container{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 10px 100px 12px #fef8f8;
+
+}
+.logo{
+    height: 10vh;
+    margin-top: 2vh;
+    margin-left: 5vh;
+}
+
+.box2{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+span{
+    margin-right: 1vw;
+}
+
+
+.lin{
+    font-family: poppins;
+    text-decoration: none; 
+    color: white;
+    font-size: 1.5rem;
+}
+.excp{
+    height:2.5rem ;
+    margin-left: -0.5vw;
+    padding-top: 5vh;
+    padding-right: 1vw;
+}
+.exc{
+    height:2.5rem ;
+    margin-left: -0.5vw;
+    padding-top: 1vh;
+    padding-right: 0vw;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Kavoon', sans-serif;
+    font-size: 8vh;
+    margin-top:4vw;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+ol{
+    margin-top: 3vh;
+}
+
+li{
+    font-size: 3.5vh;
+    color: black;
+    font-family: Calistoga;
+    font-style: italic;
+    margin-top: 3vh;
+}
+
+.img{
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 5px 5px 100px 12px #2c2c2c;
+}
+
+
+
+.abc{
+    margin-left: 52%;
+    margin-top: -23%;
+   
+}

@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Caramel&family=Itim&family=Kavoon&family=Poppins:wght@300;500;600;700;900&family=Saira+Semi+Condensed:wght@100;300;600;700;800&family=Satisfy&display=swap');
+
+body {
+    color: white;
+    margin: 0%;
+	background: linear-gradient(-40deg, #ee7752, #b5587c, #598b9d, #d58223);
+	background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.container{
+    background-color: black;
+    box-shadow: 5px 5px 200px 12px #fef8f8;
+
+}
+.logo{
+    height: 14vh;
+    margin-top: 2vh;
+    margin-left: 5vh;
+}
+
+.box2{
+    display: flex;
+    justify-content: end;
+}
+
+span{
+    margin-right: 1vw;
+}
+
+
+.lin{
+    font-family: poppins;
+    text-decoration: none; 
+    color: white;
+    font-size: 2rem;
+}
+.excp{
+    height:2.5rem ;
+    margin-left: -0.5vw;
+    padding-top: 1vh;
+    padding-right: 1vw;
+}
+.exc{
+    height:2.5rem ;
+    margin-left: -0.5vw;
+    padding-top: 1vh;
+    padding-right: 0vw;
+}
+
+
+
+h1{
+    text-align: center;
+    font-family: 'Kavoon', sans-serif;
+    font-size: 2.5em;
+    font-size: 9vh;
+    margin-top:5vw;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Kavoon';
+    font-weight: 100;
+    font-size: 6vh;
+    margin-top: -6vh;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h3{
+    font-size: 5vh;
+    font-weight: 200;
+    font-family:Calistoga;
+    margin-left: 5vw;
+    margin-top: 5vw;
+    text-shadow: 2px 2px 4px #000000;
+}
+.b{
+    margin-left:87% ;
+    margin-top: -25%;
+}
+
+.expectation{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 1vh;
+    width: 40%;
+    margin-left: 3vw;
+    
+}
+.reality{
+    margin-left: 57%;
+    
+    margin-bottom: 5%;
+    column-gap: 1vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 40%;
+    
+}
+
+.item3{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.abc{
+    height: 30vh;
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 100px 12px #2c2c2c;
+}
+
+
+.ac{
+    height:2rem ;
+    margin-left: 1vw;
+    padding-top: 1vh;
+    padding-right: 0vw;
+}
+
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0%;
+    box-shadow: 5px -10px 100px 12px #fef8f8;
+    height: 8vh;
+}
+
+.xyz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.line{
+    font-family: poppins;
+    text-decoration: none; 
+    color: white;
+    font-size: 1rem;
+}
+
+.excpe{
+    height:1.5rem ;
+    margin-left: -0vw;
+    padding-top: 1vh;
+    padding-right: 1vw;
+}
